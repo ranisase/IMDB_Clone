@@ -31,3 +31,25 @@ a > span:hover {
 .user__avatar {
     font-size: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+.header{
+    margin: 0.5rem;
+    padding: .2rem ;
+    justify-content:center;
+}
+.header__icon {
+    width: 80px;
+    margin-top: 5px;
+}
+.headerRight{
+    padding-left: 50px;
+    text-align: center;
+}
+a > span{
+    font-size:medium;
+    margin: 0;
+    padding-left: 10px;
+    
+}
+}

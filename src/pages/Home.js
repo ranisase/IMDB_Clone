@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
 import MovieList from "../components/movieList/Movielist";
-// import Footer from "../components/Footer/Footer";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   const [popularMovies, setPopularMovies] = useState([]);
@@ -21,7 +21,7 @@ const Home = () => {
     <>
       <div className="poster">
         <Carousel
-          showThumbs={false}
+            
           autoPlay={true}
           transitionTime={3}
           infiniteLoop={true}
@@ -64,7 +64,7 @@ const Home = () => {
           </span>
         </p>
 
-        {/* <Footer/> */}
+        <Footer/>
       </div>
     </>
   );
